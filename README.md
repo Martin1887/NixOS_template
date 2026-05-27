@@ -14,6 +14,7 @@ modifications:
     - Add `hosts/mynixos/hardware.nix`.
     - Modify `stateVersion` in both, `user.nix` and `default.nix` with the
       NixOS version installed.
+    - Modify `flake.nix` accordingly, changing hosts and users.
     - Optionally, add more users and hosts.
 
 2. In case of enabling dual-function-keys, set device names in
