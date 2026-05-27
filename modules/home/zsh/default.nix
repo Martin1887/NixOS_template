@@ -2,6 +2,7 @@
 
 {
   home.packages = with pkgs; [ fzf zsh-completions ];
+  home.file.".zshrc".enable = false;
 
   programs.fzf.enable = true;
 
