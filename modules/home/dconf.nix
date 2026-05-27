@@ -51,31 +51,31 @@ in {
             gtk-theme = "Adwaita-dark";
             color-scheme = "prefer-dark";
             show-battery-percentage = true;
-            wm = {
-              keybindings = {
-                close = [ "<Super>q" ];
-                maximize = [ ];
-                minimize = [ "<Super>comma" ];
-                move-to-workspace-1 = [ "<Shift><Super>1" ];
-                move-to-workspace-2 = [ "<Shift><Super>2" ];
-                move-to-workspace-3 = [ "<Shift><Super>3" ];
-                move-to-workspace-4 = [ "<Shift><Super>4" ];
-                move-to-workspace-left = [ "<Shift><Super>h" ];
-                move-to-workspace-right = [ "<Shift><Super>l" ];
-                switch-to-workspace-1 = [ "<Super>1" ];
-                switch-to-workspace-2 = [ "<Super>2" ];
-                switch-to-workspace-3 = [ "<Super>3" ];
-                switch-to-workspace-4 = [ "<Super>4" ];
-                switch-to-workspace-left = [ "<Control><Super>h" ];
-                switch-to-workspace-right = [ "<Control><Super>l" ];
-                toggle-fullscreen = [ "F11" ];
-                toggle-maximized = [ "<Super>m" ];
-                unmaximize = [ ];
-              };
-              preferences = {
-                button-layout = "appmenu:minimize,maximize,close";
-                num-workspaces = 4;
-              };
+          };
+          wm = {
+            keybindings = {
+              close = [ "<Super>q" ];
+              maximize = [ ];
+              minimize = [ "<Super>comma" ];
+              move-to-workspace-1 = [ "<Shift><Super>1" ];
+              move-to-workspace-2 = [ "<Shift><Super>2" ];
+              move-to-workspace-3 = [ "<Shift><Super>3" ];
+              move-to-workspace-4 = [ "<Shift><Super>4" ];
+              move-to-workspace-left = [ "<Shift><Super>h" ];
+              move-to-workspace-right = [ "<Shift><Super>l" ];
+              switch-to-workspace-1 = [ "<Super>1" ];
+              switch-to-workspace-2 = [ "<Super>2" ];
+              switch-to-workspace-3 = [ "<Super>3" ];
+              switch-to-workspace-4 = [ "<Super>4" ];
+              switch-to-workspace-left = [ "<Control><Super>h" ];
+              switch-to-workspace-right = [ "<Control><Super>l" ];
+              toggle-fullscreen = [ "F11" ];
+              toggle-maximized = [ "<Super>m" ];
+              unmaximize = [ ];
+            };
+            preferences = {
+              button-layout = "appmenu:minimize,maximize,close";
+              num-workspaces = 4;
             };
           };
           peripherals = {
