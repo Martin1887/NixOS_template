@@ -1,6 +1,7 @@
 { lib, ... }:
 
 {
+  xdg.enable = true;
   xdg.configFile = with builtins; with lib; pipe ./. [
     filesystem.listFilesRecursive
     (filter (file: ! hasSuffix ".nix" file))
