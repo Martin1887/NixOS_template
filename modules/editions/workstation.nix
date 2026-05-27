@@ -4,8 +4,8 @@
   imports = [
     ../profiles/base.nix
     ../profiles/containers.nix
+    ../profiles/cosmic.nix
     ../profiles/fonts.nix
-    ../profiles/gnome.nix
     ../profiles/pipewire.nix
     ../profiles/plymouth.nix
     ../profiles/stylix.nix
