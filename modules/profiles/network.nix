@@ -12,9 +12,9 @@
     };
   };
 
-  services.Resolve = {
+  services.resolved = {
     enable = true;
-    DNSSEC = false;
+    settings.Resolve.DNSSEC = false;
   };
 
   systemd = {
