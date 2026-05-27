@@ -23,8 +23,6 @@
       save = 100000;
       size = 100000;
       share = true;
-      # all zsh things in $ZDOTDIR
-      path = "$ZDOTDIR/.zsh_history";
     };
 
     plugins = with pkgs; [{

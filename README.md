@@ -58,6 +58,8 @@ This template makes some changes not present in trilby:
 - Optional dual-function-keys setting.
 - Stylix.
 
+The `cosmic` branch uses COSMIC instead of GNOME.
+
 ## Recommendations
 
 This template is designed to handle multiple hosts and users, by setting the
