@@ -104,6 +104,16 @@ in {
             toggle-tiled-right = [ ];
           };
         };
+        nautilus = {
+          preferences = {
+            default-folder-viewer = "list-view";
+            executable-text-activation = "display";
+            search-filter-time-type = "last_modified";
+            search-view = "list-view";
+            show-image-thumbnails = "always";
+          };
+          list-view.use-tree-view = true;
+        };
         settings-daemon.plugins.color.night-light.enabled = true;
         settings-daemon.plugins.media-keys = {
           control-center = [ "<Super>c" ];
@@ -147,16 +157,6 @@ in {
             tile-by-default = false;
           };
           favorite-apps = [ "org.gnome.Nautilus.desktop" ];
-          nautilus = {
-            preferences = {
-              default-folder-viewer = "list-view";
-              executable-text-activation = "display";
-              search-filter-time-type = "last_modified";
-              search-view = "list-view";
-              show-image-thumbnails = "always";
-            };
-            list-view.use-tree-view = true;
-          };
           remember-mount-password = false;
         };
       };
